@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Service.Repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Service.Repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.Repo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Service.Repo/1.0.0": {
+      "type": "project",
+      "path": "../Client.Service/Service.Repo.csproj",
+      "msbuildProject": "../Client.Service/Service.Repo.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Service.Repo >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/dzape/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/dzape/Development/Services/ServiceA/ServiceA.csproj",
+      "projectName": "ServiceA",
+      "projectPath": "/Users/dzape/Development/Services/ServiceA/ServiceA.csproj",
+      "packagesPath": "/Users/dzape/.nuget/packages/",
+      "outputPath": "/Users/dzape/Development/Services/ServiceA/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/dzape/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/dzape/Development/Services/Client.Service/Service.Repo.csproj": {
+              "projectPath": "/Users/dzape/Development/Services/Client.Service/Service.Repo.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.23, 6.0.23]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[6.0.23, 6.0.23]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.23, 6.0.23]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

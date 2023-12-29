@@ -1,0 +1,11 @@
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\bin\Debug\net6.0\Client.Service.deps.json
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\bin\Debug\net6.0\Client.Service.dll
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\bin\Debug\net6.0\Client.Service.pdb
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\obj\Debug\net6.0\Client.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\obj\Debug\net6.0\Client.Service.AssemblyInfoInputs.cache
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\obj\Debug\net6.0\Client.Service.AssemblyInfo.cs
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\obj\Debug\net6.0\Client.Service.csproj.CoreCompileInputs.cache
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\obj\Debug\net6.0\Client.Service.dll
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\obj\Debug\net6.0\refint\Client.Service.dll
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\obj\Debug\net6.0\Client.Service.pdb
+C:\Users\predrag.nikolikj\source\repos\Services\Client.Service\obj\Debug\net6.0\ref\Client.Service.dll

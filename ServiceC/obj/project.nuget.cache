@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TtwAM+unZ78tQyl/TdSEMcIESWAhyEaR36WJ0LMuCmwppy5jGf0bcZMO3n92mcNmKIRM5GEcD97a4BGuQ6JlTg==",
+  "success": true,
+  "projectFilePath": "/Users/dzape/Development/Services/ServiceC/ServiceC.csproj",
+  "expectedPackageFiles": [
+    "/Users/dzape/.nuget/packages/microsoft.netcore.app.ref/6.0.23/microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "/Users/dzape/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.23/microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
+    "/Users/dzape/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.23/microsoft.netcore.app.host.osx-arm64.6.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
