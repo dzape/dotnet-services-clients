@@ -25,7 +25,6 @@ static class ServiceB
         var request = clientService.RequiestMessage("127.0.0.1", 4222, message);
 
         endpointC = Regex.Match(request, @"\d+").Value;
-        var portC = Int32.Parse(endpointC);
 
         server.Start();
 

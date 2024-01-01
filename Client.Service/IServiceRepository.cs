@@ -15,6 +15,7 @@ namespace Client.Service
 
     public class ListenerService : IListenerService
     {
+
         public int GetAvalablePort()
         {
             using (var socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp))
