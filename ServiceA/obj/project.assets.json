@@ -17,8 +17,8 @@
   "libraries": {
     "Service.Repo/1.0.0": {
       "type": "project",
-      "path": "../Client.Service/Service.Repo.csproj",
-      "msbuildProject": "../Client.Service/Service.Repo.csproj"
+      "path": "../Service.Repo/Service.Repo.csproj",
+      "msbuildProject": "../Service.Repo/Service.Repo.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/dzape/Development/Services/Client.Service/Service.Repo.csproj": {
-              "projectPath": "/Users/dzape/Development/Services/Client.Service/Service.Repo.csproj"
+            "/Users/dzape/Development/Services/Service.Repo/Service.Repo.csproj": {
+              "projectPath": "/Users/dzape/Development/Services/Service.Repo/Service.Repo.csproj"
             }
           }
         }

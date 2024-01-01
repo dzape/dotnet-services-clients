@@ -4,14 +4,14 @@
     "/Users/dzape/Development/Services/ServiceB/ServiceB.csproj": {}
   },
   "projects": {
-    "/Users/dzape/Development/Services/Client.Service/Service.Repo.csproj": {
+    "/Users/dzape/Development/Services/Service.Repo/Service.Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dzape/Development/Services/Client.Service/Service.Repo.csproj",
+        "projectUniqueName": "/Users/dzape/Development/Services/Service.Repo/Service.Repo.csproj",
         "projectName": "Service.Repo",
-        "projectPath": "/Users/dzape/Development/Services/Client.Service/Service.Repo.csproj",
+        "projectPath": "/Users/dzape/Development/Services/Service.Repo/Service.Repo.csproj",
         "packagesPath": "/Users/dzape/.nuget/packages/",
-        "outputPath": "/Users/dzape/Development/Services/Client.Service/obj/",
+        "outputPath": "/Users/dzape/Development/Services/Service.Repo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dzape/.nuget/NuGet/NuGet.Config"
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/dzape/Development/Services/Client.Service/Service.Repo.csproj": {
-                "projectPath": "/Users/dzape/Development/Services/Client.Service/Service.Repo.csproj"
+              "/Users/dzape/Development/Services/Service.Repo/Service.Repo.csproj": {
+                "projectPath": "/Users/dzape/Development/Services/Service.Repo/Service.Repo.csproj"
               }
             }
           }

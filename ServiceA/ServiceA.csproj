@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client.Service\Service.Repo.csproj" />
+    <ProjectReference Include="..\Service.Repo\Service.Repo.csproj" />
   </ItemGroup>
 
 </Project>
