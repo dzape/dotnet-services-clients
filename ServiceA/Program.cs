@@ -26,19 +26,18 @@ static class ServiceA
             NetworkStream stream = client.GetStream();
 
             var response = listenerService.ReadBytesAsync(stream);
-            Console.WriteLine(response.Result);
 
             if (response.Result.Contains("endpoint C"))
             {
                 endpointB = Regex.Match(response.Result, @"\d+").Value;
-                var message = endpointC != "" ? "( Endpoint C ) " + endpointC.ToString() : "(404) Service C is not found";
+                var message = endpointC != "" ? "(OK) => ( Endpoint C ) " + endpointC.ToString() : "(404) Service C is not found";
 
                 listenerService.SendResponse(stream, message);
             }
             else if (response.Result.Contains("endpoint B"))
             {
                 endpointC = Regex.Match(response.Result, @"\d+").Value;
-                var message = endpointB != "" ? "( Endpoint B ) " + endpointB.ToString() : "(404) Service B is not found";
+                var message = endpointB != "" ? "(OK) => ( Endpoint B ) " + endpointB.ToString() : "(404) Service B is not found";
 
                 listenerService.SendResponse(stream, message);
             }

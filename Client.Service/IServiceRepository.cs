@@ -1,9 +1,7 @@
 ﻿using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using System.Runtime.CompilerServices;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Client.Service
 {
@@ -32,7 +30,6 @@ namespace Client.Service
         public async Task<string> ReadBytesAsync(NetworkStream stream)
         {
             var receivedData = new StringBuilder();
-            int bytesRead;
 
             Byte[] bytes = new Byte[256];
 
@@ -43,7 +40,7 @@ namespace Client.Service
                 while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
                 {
                     var data = Encoding.UTF8.GetString(bytes, 0, i);
-                    Console.WriteLine($"Received: {data}");
+                    Console.WriteLine($"Server Received: {data}");
 
                     if (data != null)
                     {
@@ -57,7 +54,7 @@ namespace Client.Service
                     return receivedData.ToString();
                 }
 
-                Thread.Sleep(1000);
+                Thread.Sleep(2000);
             }
         }
 
@@ -66,7 +63,7 @@ namespace Client.Service
             byte[] msg = Encoding.UTF8.GetBytes(message);
 
             stream.Write(msg, 0, msg.Length);
-            Console.WriteLine($"Sent: {message}");
+            Console.WriteLine($"Server Sent: {message}");
         }
     }
 

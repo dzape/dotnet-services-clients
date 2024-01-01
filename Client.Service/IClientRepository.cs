@@ -24,7 +24,7 @@ namespace Client.Service
 
                         response = SendMessage(stream, message);
 
-                        Console.WriteLine(response);
+                        Console.WriteLine($"Client Received: {response}");
 
                         if (response.Contains("OK")) break;
 
@@ -50,6 +50,7 @@ namespace Client.Service
             data = new byte[256];
             int bytes = stream.Read(data, 0, data.Length);
             string responseData = Encoding.UTF8.GetString(data, 0, bytes);
+            Console.WriteLine($"Client Sent: {responseData}");
 
             return responseData;
         }
